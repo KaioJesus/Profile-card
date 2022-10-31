@@ -1,0 +1,88 @@
+body{
+    background-color: #1aa1ad;
+    background-color: url('./images/bg-pattern-bottom.svg');
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    height: 60%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bg__perfil{
+    width:fit-content;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.perfil{
+    border-radius: 50%;
+    position: absolute;
+    top: 215px;
+    left: 150px;
+}
+
+.card__name__age{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card__age{
+    color: grey;
+}
+
+.card__city{
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card__profile{
+    border-top: 1px solid rgb(226, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 32px;
+}
+
+.card__profile__stats-numbers{
+    gap: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card__profile__stats-description{
+    color: grey;
+    font-size: 14px;
+}
+
+@media (min-width: 1440px){
+    .card{
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .perfil{
+        top: 280px;
+        left:675px;
+    }
+
+    .card__profile{
+        margin-bottom: 32px;
+    }
+}
