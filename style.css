@@ -1,6 +1,9 @@
 body{
     background-color: #1aa1ad;
-    background-color: url('./images/bg-pattern-bottom.svg');
+    background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+    /* background-image: url("bg-pattern-bottom.svg"); */
+    background-repeat: no-repeat;
+    background-position: 130% 150%, -20% -100%;
 }
 
 main{
@@ -11,31 +14,32 @@ main{
 }
 
 .card{
-    height: 60%;
+    height: 50%;
     width: 80%;
     background-color: white;
     border-radius: 10px;
 }
 
 .bg__perfil{
-    width:fit-content;
+    width: 100%;
+    /* deixar a imagem ocupando 100% do lugar que estiver dentro */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .perfil{
     border-radius: 50%;
-    position: absolute;
-    top: 215px;
-    left: 150px;
+    position: relative;
+    top: -50px;
+    left: 104px;
 }
 
 .card__name__age{
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 64px;
-    margin-bottom: 16px;
+    margin-top: -24px;
+    margin-bottom: 8px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -57,7 +61,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 32px;
-    padding-top: 32px;
+    padding: 20px;
 }
 
 .card__profile__stats-numbers{
@@ -72,14 +76,32 @@ main{
 }
 
 @media (min-width: 1440px){
+    body{
+        background-position: 800px 250px, -200px -100px;
+    }
+
     .card{
         height: fit-content;
         width: fit-content;
     }
     
     .perfil{
-        top: 280px;
-        left:675px;
+        top: -50px;
+    }
+
+    .card__profile{
+        margin-bottom: 32px;
+    }
+}
+
+@media (min-width: 834px){
+    .card{
+        height: auto;
+        width: fit-content;
+    }
+    
+    .perfil{
+        left: 180px
     }
 
     .card__profile{
