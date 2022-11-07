@@ -4,9 +4,9 @@ Esta é uma solução do [FAQ accordion card challenge on Frontend Mentor](https
 
 ### 💻 Telas
 
-![Design preview for the FAQ accordion card coding challenge](.github/preview_pc.png)
+![Design preview for the FAQ accordion card coding challenge](./.github/preview_pc.png)
 
-![Design preview for the FAQ accordion card coding challenge](.github/preview_cell.png)
+![Design preview for the FAQ accordion card coding challenge](./.github/preview_cell.png)
 
 ### Links
 
