@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile Card
 
-Esta é uma solução do [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges ajuda você melhorar suas habilidades em fazer códigos com projetos reais.
+Esta é uma solução do [Profile card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges ajuda você melhorar suas habilidades em fazer códigos com projetos reais.
 
 ### 💻 Telas
 
